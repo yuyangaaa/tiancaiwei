@@ -17,8 +17,9 @@ jobs:
 
       # 编译你的Java文件（把文件名换成你实际的：登录界面.java）
       - name: Compile Java code
-        run: javac "登录界面.java"
+        run: javac LoginUI.java
+
 
       # 运行编译后的class程序
       - name: Run Java program
-        run: java 登录界面
+        run: java LoginUI
